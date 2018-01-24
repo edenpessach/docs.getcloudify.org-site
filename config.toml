@@ -2,6 +2,7 @@ baseurl = "http://docs.getcloudify.org/"
 languageCode = "en-us"
 title = "Cloudify Documentation"
 theme="hugo-bootswatch"
+latestver="4.2.0"
 uglyurls=false
 
 [blackfriday]
@@ -18,7 +19,7 @@ homepage="/intro/what-is-cloudify/"
 
 # this is where you control the top menu
 [[menu.main]]
-    name = "docs"
+    name = latestver "docs"
     weight = -100
     [[menu.main]]
         name = "4.2.0 (Latest GA)"
